@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Your favourite music is here</title>
+    
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/favicon-16x16.png">
+    <link rel="manifest" href="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/home/nishant/Pictures/JavaScript/spotify/742862f5cb5fb02106f095d225fc62cf.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <nav>
+        <ul>
+             <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+       <div class="songList">
+           <h1>Best of NCS- No copyright sounds</h1>
+           <div class="songItemContainer">
+               <div class="songItem">
+                      <img alt="1" srcset="">
+                      <span class="songName"></span>
+                      <span class="songlistplay"><span class="timestamp">05:34 <i id="0" class="fas songItemPlay fa-play-circle"></i></span></span>
+               </div>
+               <div class="songItem">
+                     <img alt="1" srcset="">
+                     <span class="songName"></span>
+                     <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="fas songItemPlay fa-play-circle"></i></span></span>
+              </div>
+              <div class="songItem">
+                     <img alt="1" srcset="">
+                     <span class="songName"></span>
+                     <span class="songlistplay"><span class="timestamp">05:34 <i  id="2" class="fas songItemPlay fa-play-circle"></i></span></span>
+              </div>
+              <div class="songItem">
+                     <img  alt="1" srcset="">
+                     <span class="songName"></span>
+                     <span class="songlistplay"><span class="timestamp">05:34 <i id="3" class="fas songItemPlay fa-play-circle"></i></span></span>
+              </div>
+           </div>
+       </div>
+       <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+         <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+         <div class="icons">
+             <!--fontawesome icons-->
+             <i id="previous" class="fas fa-3x fa-step-backward"></i>
+             <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+             <i id="next" class="fas fa-3x fa-step-forward"></i>
+         </div>
+         <div class="songInfo">
+            <img src="playing.gif" id="gif" alt="" srcset=""> <span id="masterSongName">In The End -Linkin Park</span> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4f0136c5fb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
